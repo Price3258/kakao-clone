@@ -1,0 +1,20 @@
+.nav{
+    position: fixed;
+    width:100%;
+    background-color: #fcfcfc;
+    padding:20px 50px;
+    bottom: 10px;
+    left:0px;
+    bottom: 0px;
+    border-top: 1px solid #f7f7f7;
+    /* sticky bottom을 만드려면 position fixed, width 반드시 설정. left right bottom top으로 위치 설정 */
+}
+
+.nav .nav__list {
+    display: flex;
+    justify-content: space-between
+}
+
+.nav i {
+    font-size: 20px;
+}
