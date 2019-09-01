@@ -7,6 +7,14 @@
 *{
     box-sizing: border-box;
 }
+/* box size를 자동으로 더 커지게 하는 것을 방지 
+    ex ) w : 300px , h : 100px ,
+        padding-Top: 10px;
+        padding-left:20px;
+
+        => 실제 박스 사이즈는 280px, 90px이 됨. 이게 없으면 padding의 사이즈 만큼 박스 사이즈가 증가함. 
+
+*/
 
 body {
   background-color: white;
