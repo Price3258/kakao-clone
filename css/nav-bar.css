@@ -37,3 +37,17 @@
     font-size: 10px;
 }
 
+@keyframes showNavBar{
+    from{
+        transform: translateY(100px);
+    }
+    to{
+        transform: none;
+    }
+}
+
+.nav {
+    transform: translateY(100px);
+    animation: showNavBar 0.5s forwards;
+    animation-delay: 0.5s;
+}
